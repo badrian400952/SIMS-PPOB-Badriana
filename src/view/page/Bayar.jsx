@@ -57,7 +57,7 @@ const Bayar = () => {
               <p className="text-3xl font-bold">
                 {" "}
                 {togel
-                  ? `Rp ${formatRupiah(balance.balance.balance)}`
+                  ? `${formatRupiah(balance.balance.balance)}`
                   : "Rp . . . ."}
               </p>
               <p
@@ -75,7 +75,7 @@ const Bayar = () => {
                 className="rounded-full w-12 h-12"
                 src={serviceData.service_icon}
                 alt={serviceData.service_name}
-                // image response rusak
+              // image response rusak
               />
               <p className="text-left font-bold">{serviceData.service_name}</p>
             </div>
